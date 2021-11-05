@@ -4,4 +4,3 @@ Mi dirección de GitHub para este repositorio es la siguiente: [GitHub](https://
 https://github.com/guerramorante/Adivine-el-Numero.git
 
 Hemos resuelto un juego de adivinar con valores enteros entre 0 y 99
-El diagrama de flujo que tenemos en nuestro código es el siguiente:
