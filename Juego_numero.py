@@ -1,5 +1,5 @@
 import random
-numero = random.randint (0,100)
+numero = random.randint (0,99)
 print("\t.: Adivina el numero")
 numero_de_intentos = 0
 while True:
