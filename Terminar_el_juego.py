@@ -24,7 +24,7 @@ Nivel 4 experto: entre 0 y 1000000000000""")
        print("\t.: Escoja un numero")
        numero_de_intentos = 0
        while True:
-        numero1 = int(input("Introduzca un número del 1 al 100:"))
+        numero1 = int(input("Introduzca un número del 0 al 100:"))
         numero_de_intentos += 1
         mumero_de_intentos_max = 15
         if numero1 == numero:
@@ -36,5 +36,59 @@ Nivel 4 experto: entre 0 y 1000000000000""")
             else: 
                print("Prueba con un numero mayor")
        print(f"\nNúmero de intentos: {numero_de_intentos}")
+    if level ==2:
+        import random
+        numero=random.randint (0,1000)
+        print("\t.: Escoja un numero")
+        numero_de_intentos = 0
+        while True:
+         numero1 = int(input("Introduzca un numero del 0 al 1000:"))
+         numero_de_intentos += 1
+         numero_de_intentos_max = 35
+         if numero1== numero:
+             print("¡Esta es la respuesta correcta!")
+             break
+         else:
+             if numero1 > numero:
+                 print("Pruebe un numero menor")
+             else:
+                 print("Pruebe un numero mayor")
+         print(f"\nNúmero de intentos: {numero_de_intentos}")
+    if level == 3:
+        import random
+        numero=random.randint (0,1000000)
+        print("\t.: Escoja un numero")
+        numero_de_intentos = 0
+        while True:
+         numero1 = int(input("Introduzca un numero del 0 al 1000000:"))
+         numero_de_intentos += 1
+         numero_de_intentos_max = 70
+         if numero1== numero:
+             print("¡Esta es la respuesta correcta!")
+             break
+         else:
+             if numero1 > numero:
+                 print("Pruebe un numero menor")
+             else:
+                 print("Pruebe un numero mayor")
+         print(f"\nNúmero de intentos: {numero_de_intentos}")
+    if level == 4:
+        import random
+        numero=random.randint (0,1000000000000)
+        print("\t.: Escoja un numero")
+        numero_de_intentos = 0
+        while True:
+         numero1 = int(input("Introduzca un numero del 0 al 1000000000000:"))
+         numero_de_intentos += 1
+         numero_de_intentos_max = 190
+         if numero1== numero:
+             print("¡Esta es la respuesta correcta!")
+             break
+         else:
+             if numero1 > numero:
+                 print("Pruebe un numero menor")
+             else:
+                 print("Pruebe un numero mayor")
+         print(f"\nNúmero de intentos: {numero_de_intentos}")
 
 
